@@ -1,0 +1,17 @@
+{
+  "name": "producer-nodejs-rabbitmq",
+  "version": "1.0.0",
+  "description": "Producer Message RabbitMQ",
+  "author": "Filipe Campos",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "export ENV=development&&node ./src/test/publisher.test",
+    "start": "export ENV=development&&node ./src/index"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "dotenv": "^10.0.0"
+  }
+}
